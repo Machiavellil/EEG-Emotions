@@ -52,7 +52,7 @@ The 15 emotions are grouped into binary valence classes:
 ```
 Raw EEG (.set)
     │
-    ├── 1. Filtering          high-pass 1 Hz, low-pass 45 Hz, notch 60 Hz
+    ├── 1. Filtering          high-pass 1 Hz, low-pass 128.00 Hz, notch 50 Hz
     ├── 2. Bad channel detection   statistical outlier detection → interpolation
     ├── 3. ICA                     remove eye blink and eye movement components
     ├── 4. Re-referencing          average reference across all 224 channels
